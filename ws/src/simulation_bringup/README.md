@@ -41,6 +41,7 @@ spawn_entity = Node(
         "true",
     ],
 )
+```
 
 
 ### Impostazione della variabile d'ambiente per Gazebo
@@ -51,3 +52,4 @@ Per permettere a Gazebo di trovare i file `mesh` necessari al corretto caricamen
 
 ```bash
 export IGN_GAZEBO_RESOURCE_PATH=$IGN_GAZEBO_RESOURCE_PATH:~/ros2_workspaces/ur5_potatura_ws/src
+```
