@@ -51,5 +51,5 @@ Per permettere a Gazebo di trovare i file `mesh` necessari al corretto caricamen
 **Comando temporaneo (valido solo per il terminale corrente):**
 
 ```bash
-export IGN_GAZEBO_RESOURCE_PATH=$IGN_GAZEBO_RESOURCE_PATH:~/ros2_workspaces/ur5_potatura_ws/src
+export IGN_GAZEBO_RESOURCE_PATH=$IGN_GAZEBO_RESOURCE_PATH:~/UR5_potatura/src
 ```
