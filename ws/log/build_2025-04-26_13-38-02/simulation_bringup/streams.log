@@ -1,0 +1,46 @@
+[0.010s] Invoking command in '/home/sebab/UR5_potatura/ws/build/simulation_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sebab/UR5_potatura/ws/src/simulation_bringup -DCMAKE_INSTALL_PREFIX=/home/sebab/UR5_potatura/ws/install/simulation_bringup
+[0.047s] -- The C compiler identification is GNU 11.4.0
+[0.083s] -- The CXX compiler identification is GNU 11.4.0
+[0.089s] -- Detecting C compiler ABI info
+[0.140s] -- Detecting C compiler ABI info - done
+[0.145s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.145s] -- Detecting C compile features
+[0.145s] -- Detecting C compile features - done
+[0.147s] -- Detecting CXX compiler ABI info
+[0.200s] -- Detecting CXX compiler ABI info - done
+[0.204s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.204s] -- Detecting CXX compile features
+[0.205s] -- Detecting CXX compile features - done
+[0.207s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.309s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.378s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.432s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.432s] -- Added test 'lint_cmake' to check CMake code style
+[0.433s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.433s] -- Added test 'xmllint' to check XML markup files
+[0.434s] -- Configuring done
+[0.436s] -- Generating done
+[0.438s] -- Build files have been written to: /home/sebab/UR5_potatura/ws/build/simulation_bringup
+[0.441s] Invoked command in '/home/sebab/UR5_potatura/ws/build/simulation_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sebab/UR5_potatura/ws/src/simulation_bringup -DCMAKE_INSTALL_PREFIX=/home/sebab/UR5_potatura/ws/install/simulation_bringup
+[0.443s] Invoking command in '/home/sebab/UR5_potatura/ws/build/simulation_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sebab/UR5_potatura/ws/build/simulation_bringup -- -j16 -l16
+[0.470s] Invoked command in '/home/sebab/UR5_potatura/ws/build/simulation_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sebab/UR5_potatura/ws/build/simulation_bringup -- -j16 -l16
+[0.476s] Invoking command in '/home/sebab/UR5_potatura/ws/build/simulation_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sebab/UR5_potatura/ws/build/simulation_bringup
+[0.481s] -- Install configuration: ""
+[0.481s] -- Installing: /home/sebab/UR5_potatura/ws/install/simulation_bringup/share/simulation_bringup//launch
+[0.481s] -- Installing: /home/sebab/UR5_potatura/ws/install/simulation_bringup/share/simulation_bringup//launch/simulation_bringup.launch.py
+[0.481s] -- Installing: /home/sebab/UR5_potatura/ws/install/simulation_bringup/share/ament_index/resource_index/package_run_dependencies/simulation_bringup
+[0.481s] -- Installing: /home/sebab/UR5_potatura/ws/install/simulation_bringup/share/ament_index/resource_index/parent_prefix_path/simulation_bringup
+[0.481s] -- Installing: /home/sebab/UR5_potatura/ws/install/simulation_bringup/share/simulation_bringup/environment/ament_prefix_path.sh
+[0.482s] -- Installing: /home/sebab/UR5_potatura/ws/install/simulation_bringup/share/simulation_bringup/environment/ament_prefix_path.dsv
+[0.482s] -- Installing: /home/sebab/UR5_potatura/ws/install/simulation_bringup/share/simulation_bringup/environment/path.sh
+[0.482s] -- Installing: /home/sebab/UR5_potatura/ws/install/simulation_bringup/share/simulation_bringup/environment/path.dsv
+[0.482s] -- Installing: /home/sebab/UR5_potatura/ws/install/simulation_bringup/share/simulation_bringup/local_setup.bash
+[0.482s] -- Installing: /home/sebab/UR5_potatura/ws/install/simulation_bringup/share/simulation_bringup/local_setup.sh
+[0.482s] -- Installing: /home/sebab/UR5_potatura/ws/install/simulation_bringup/share/simulation_bringup/local_setup.zsh
+[0.482s] -- Installing: /home/sebab/UR5_potatura/ws/install/simulation_bringup/share/simulation_bringup/local_setup.dsv
+[0.482s] -- Installing: /home/sebab/UR5_potatura/ws/install/simulation_bringup/share/simulation_bringup/package.dsv
+[0.482s] -- Installing: /home/sebab/UR5_potatura/ws/install/simulation_bringup/share/ament_index/resource_index/packages/simulation_bringup
+[0.482s] -- Installing: /home/sebab/UR5_potatura/ws/install/simulation_bringup/share/simulation_bringup/cmake/simulation_bringupConfig.cmake
+[0.482s] -- Installing: /home/sebab/UR5_potatura/ws/install/simulation_bringup/share/simulation_bringup/cmake/simulation_bringupConfig-version.cmake
+[0.482s] -- Installing: /home/sebab/UR5_potatura/ws/install/simulation_bringup/share/simulation_bringup/package.xml
+[0.483s] Invoked command in '/home/sebab/UR5_potatura/ws/build/simulation_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sebab/UR5_potatura/ws/build/simulation_bringup

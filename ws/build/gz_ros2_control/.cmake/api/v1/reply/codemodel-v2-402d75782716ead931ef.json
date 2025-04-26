@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-69478bcb4c5ef841d905.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gz_ros2_control",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gz_hardware_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gz_hardware_plugins-82714d579f95f2edf379.json",
+					"name" : "gz_hardware_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gz_ros2_control-system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gz_ros2_control-system-8c4553367bee194a0517.json",
+					"name" : "gz_ros2_control-system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gz_ros2_control_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gz_ros2_control_uninstall-6ebec3bb6b71a525b385.json",
+					"name" : "gz_ros2_control_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ign_ros2_control-system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ign_ros2_control-system-3db94cd52f0829a7dbcf.json",
+					"name" : "ign_ros2_control-system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7e50099cb8640e16d373.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sebab/UR5_potatura/ws/build/gz_ros2_control",
+		"source" : "/home/sebab/UR5_potatura/ws/src/gz_ros2_control"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
