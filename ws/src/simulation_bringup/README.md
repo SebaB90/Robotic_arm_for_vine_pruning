@@ -42,3 +42,12 @@ spawn_entity = Node(
     ],
 )
 
+
+### Impostazione della variabile d'ambiente per Gazebo
+
+Per permettere a Gazebo di trovare i file `mesh` necessari al corretto caricamento dei modelli, bisogna aggiornare la variabile di ambiente `IGN_GAZEBO_RESOURCE_PATH`.
+
+**Comando temporaneo (valido solo per il terminale corrente):**
+
+```bash
+export IGN_GAZEBO_RESOURCE_PATH=$IGN_GAZEBO_RESOURCE_PATH:~/ros2_workspaces/ur5_potatura_ws/src
