@@ -53,3 +53,6 @@ Per permettere a Gazebo di trovare i file `mesh` necessari al corretto caricamen
 ```bash
 export IGN_GAZEBO_RESOURCE_PATH=$IGN_GAZEBO_RESOURCE_PATH:~/UR5_potatura/src
 ```
+
+Vedi link seguente per ros2_control:
+https://control.ros.org/humble/doc/getting_started/getting_started.html
