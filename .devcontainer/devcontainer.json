@@ -1,0 +1,26 @@
+{
+  "name": "Braccio Potatura ROS2 Humble Container",
+  "image": "ros2-humble-full",
+  "runArgs": [
+    "--name=braccio_potatura_ros2_humble_container",
+    "--gpus=all",
+    "--net=host",
+    "--env=DISPLAY=${env:DISPLAY}",
+    "--env=QT_X11_NO_MITSHM=1",
+    "--volume=/tmp/.X11-unix:/tmp/.X11-unix:rw"
+  ],
+  "workspaceFolder": "/home/sebab/ros2_ws",
+  "remoteUser": "sebab",
+  "mounts": [
+    "source=${localWorkspaceFolder}/ros2_ws,target=/home/sebab/ros2_ws,type=bind"
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-iot.vscode-ros",
+        "ms-vscode.cpptools",
+        "ms-python.python"
+      ]
+    }
+  }
+}
