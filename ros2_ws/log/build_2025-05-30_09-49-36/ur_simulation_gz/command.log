@@ -1,0 +1,6 @@
+Invoking command in '/home/sebab/ros2_ws/build/ur_simulation_gz': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sebab/ros2_ws/src/ur_simulation_gz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sebab/ros2_ws/install/ur_simulation_gz
+Invoked command in '/home/sebab/ros2_ws/build/ur_simulation_gz' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sebab/ros2_ws/src/ur_simulation_gz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sebab/ros2_ws/install/ur_simulation_gz
+Invoking command in '/home/sebab/ros2_ws/build/ur_simulation_gz': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sebab/ros2_ws/build/ur_simulation_gz -- -j16 -l16
+Invoked command in '/home/sebab/ros2_ws/build/ur_simulation_gz' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sebab/ros2_ws/build/ur_simulation_gz -- -j16 -l16
+Invoking command in '/home/sebab/ros2_ws/build/ur_simulation_gz': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sebab/ros2_ws/build/ur_simulation_gz
+Invoked command in '/home/sebab/ros2_ws/build/ur_simulation_gz' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sebab/ros2_ws/build/ur_simulation_gz
