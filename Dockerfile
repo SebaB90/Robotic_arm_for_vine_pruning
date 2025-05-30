@@ -1,3 +1,7 @@
+################################################################
+# Dockerfile per l'installazione di ROS 2 Humble su Ubuntu 22.04
+################################################################
+
 FROM ubuntu:22.04
 
 ENV DEBIAN_FRONTEND=noninteractive
